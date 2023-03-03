@@ -1,0 +1,121 @@
+/*lightest blue: #8ECAE6
+medium blue: #219EBC
+dark blue: #023047
+light orange: #FFB703
+dark orange: #FB8500
+*/
+
+body {
+    text-align: center;
+    background: #023047;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.sanjoseca.gov/home/showpublishedimage/8623/637045877707270000");
+    background-size: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.act-img {
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.city-tag {
+    color: #FFB703;
+    text-shadow: 0 0 6px black;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.city-summary {
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin: 0px 0 20px;
+}
+
+.act-header {
+    margin: 0;
+    background: #FFB703;
+    color: #023047;
+    padding: 20px;
+}
+
+.top-activities {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    background: #FFB703;
+    color: #023047;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+.guide  {
+    border: 1px solid #219EBC;
+    margin: 0;
+    background: #219EBC;
+}
+
+.guide-summary {
+    margin: 40px auto 20px;
+    display: flex;
+    width: 600px;
+    border: 3px solid purple;
+    padding: 10px;
+    background: #023047;
+    color: #FFB703;
+    border-radius: 20px;
+}
+
+.guide-summary p {
+    font-style: italic;
+}
+
+.guide-text {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jimmy-img {
+    border-radius: 20px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.sharks:hover {
+    content: url("https://sanjosehockeynow.com/wp-content/uploads/sites/7/2021/04/20210213_170153-scaled.jpg");
+    border: 3px solid blue;
+}
+
+.nature:hover {
+    content: url("https://www.gettingstamped.com/wp-content/uploads/2019/10/Natural-Bridges-State-Park-Things-to-do-in-Santa-Cruz-Road-Trip-California-highlights-640x800.jpg");
+    border: 3px solid blue;
+}
+
+.sf:hover {
+    content: url("https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2018/06/Alamo-Square-san-francisco-og.jpg");
+    border: 3px solid blue;
+}
